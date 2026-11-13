@@ -1,5 +1,6 @@
 package empleado.usecase;
 
+import empleado.exception.EmpleadoNoEncontradoException;
 import empleado.modelo.Empleado;
 import empleado.modelo.Puesto;
 import empleado.output.EmpleadoRepository;

@@ -8,5 +8,5 @@ public interface EmpleadoRepository {
 
     Empleado save(Empleado empleado);
 
-    Optional<Empleado> findByLegajo(String legajo);
+    Optional<Empleado> buscarPorLegajo(String legajo);
 }
