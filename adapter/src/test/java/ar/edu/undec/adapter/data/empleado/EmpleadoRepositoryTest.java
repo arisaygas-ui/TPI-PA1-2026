@@ -1,7 +1,7 @@
 package ar.edu.undec.adapter.data.empleado;
 
 import ar.edu.undec.adapter.data.empleado.model.EmpleadoEntity;
-import ar.edu.undec.adapter.data.empleado.repository.IEmpleadoJPARepository;
+import ar.edu.undec.adapter.data.empleado.crud.IEmpleadoJPARepository;
 import empleado.modelo.Puesto;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
